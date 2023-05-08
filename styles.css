@@ -78,7 +78,6 @@ button {
 }
 
 #third-section {
-
 }
 
 
@@ -96,7 +95,7 @@ footer a {
 .footerlinks {
   padding-bottom: 20px;
   align-items: baseline;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .footerlinks img {
@@ -125,7 +124,16 @@ footer a {
 }
 
 .socials i {
-  padding-left: 20px;
+  
+  padding: 5px;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  border-radius: 50%;
+  /* text-shadow: 5px 5px 0 blue; */
+}
+
+.socials i:hover {
+  border: 1px solid hsl(224, 93%, 58%);
 }
 
 .socials i:hover,
