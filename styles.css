@@ -1,5 +1,5 @@
 body {
-  margin: 0 20px;
+  margin: 0;
   max-width: 1440px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -7,7 +7,8 @@ body {
 header {
   justify-content: space-between;
   font-family: 'Raleway', sans-serif;
-  margin: 30px 0px;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .flex {
@@ -17,7 +18,7 @@ header {
 
 #first-section img,
 #second-section .beautify {
-  width: 50%;
+  width: 45%;
 }
 
 h1,h3,
@@ -39,7 +40,7 @@ header img {
 
 nav a {
   text-decoration: none;
-  margin-right: 30px;
+  margin-left: 30px;
   color: #000;
 }
 
@@ -49,6 +50,15 @@ input {
   /* border: none; */
 }
 
+header,
+nav,
+#first-section,
+#second-section,
+#third-section,
+footer {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 button {
   padding: 12px 50px;
@@ -59,16 +69,75 @@ button {
   border-radius: 3px;
 }
 
+#second-section {
+  background-image: url("images/bg-curve-desktop.svg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+#third-section {
+
+}
 
 
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  padding: 70px 50px 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerlinks {
+  padding-bottom: 20px;
+  align-items: baseline;
+  font-size: 12px;
+}
+
+.footerlinks img {
+  width: 20px;
+  height: 15px;
+  padding-right: 20px;
+}
+
+.footerlinks p {
+  padding-left: 20px;
+}
+
+.footerlinks .contacts .flex {
+  /* width: 25%; */
+  /* font-size: 12px; */
+  justify-content: start;
+  align-items: center;
+}
+
+.links, .links2 {
+  flex-direction: column;
+}
+
+.links a, .links2 a {
+  padding-bottom: 15px;
+}
+
+.socials i {
+  padding-left: 20px;
+}
+
+.socials i:hover,
+.links a:hover,
+.links2 a:hover {
+  color: hsl(224, 93%, 58%);
+}
 
 
-
-
-
-
-
-
+.logo {
+  width: 120px;
+}
 
 
 
