@@ -72,9 +72,56 @@ button {
 #second-section {
   background-image: url("images/bg-curve-desktop.svg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 100px;
+  padding-bottom: 120px;
   margin-top: 100px;
+  align-items: center;
+}
+
+#second-section .beautify {
+  max-width: 450px;
+  height: 100%;
+}
+
+#second-section a {
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+#second-section .about  {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#second-section .about img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#second-section .about h4,
+#second-section .about p {
+  margin: 1.5px;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+.testimony {
+  background-color: #fff;
+  width: 50%;
+  margin-top: 50px;
+  padding: 30px;
+  box-shadow: 0 0 10px #cfc6c6;
+  border-radius: 10px;
+}
+
+.testimony .msg {
+  font-size: 14px;
+  margin-top: 0px;
 }
 
 #third-section {
