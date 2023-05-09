@@ -138,9 +138,7 @@
   }
 
   #third-section {
-    padding: 30px 50px 45px;
-    /* padding: 40px; */
-    /* padding-top: 30px; */
+    padding: 30px 40px 45px;
     text-align: center;
     background-color: hsl(238, 22%, 44%);
   }
@@ -174,8 +172,25 @@
   }
 
   footer .contacts p {
-    margin:0 0 5px;
+    margin: 0 0 0px;
+    padding-left: 0px;
+    
     /* margin-bottom: 10px; */
+  }
+
+  footer .contacts {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .contacts .flex {
+    padding-bottom: 15px;
+  }
+
+  .links,
+  .links2 {
+    padding-bottom: 30px;
   }
 
   .logo {
@@ -184,12 +199,21 @@
   }
 
   .footerlinks img {
-    width: 20px;
-    height: 15px;
+    width: 18px;
+    height: 14px;
     padding-right: 20px;
   }
 
+  .socials {
+    display: block;
+    margin: 0 auto;
+  }
 
+  .socials i {
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
 
 }
 
