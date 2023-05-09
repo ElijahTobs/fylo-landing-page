@@ -1,0 +1,44 @@
+@media only screen and (max-width: 376px) {
+  /* body {
+    padding: 0 20px;
+    width: 100vw;
+  } */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    margin-left: 10px;
+  
+  }
+
+  .logo,
+  .brand {
+    width: 100px;
+    height: 30px;
+  }
+
+  header,
+  nav,
+  #first-section,
+  #second-section,
+  #third-section,
+  footer {
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  #first-section,
+  #second-section {
+    flex-direction: column-reverse;
+  }
+
+  
+
+
+
+}
+
+
