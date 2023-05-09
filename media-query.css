@@ -32,8 +32,8 @@
   #second-section,
   #third-section,
   footer {
-    padding-left:20px;
-    padding-right:20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   br {
@@ -82,6 +82,11 @@
     border-radius: 10px;
   }
 
+  .testimony .msg {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
   #first-section,
   #second-section {
     flex-direction: column-reverse;
@@ -116,6 +121,36 @@
   .footerlinks {
     flex-direction: column;
     margin-bottom: 40px;
+  }
+
+  #third-section {
+    padding: 30px 50px 45px;
+    /* padding: 40px; */
+    /* padding-top: 30px; */
+    text-align: center;
+    background-color: hsl(238, 22%, 44%);
+  }
+  
+  #third-section h3 {
+    font-size: 18px;
+  }
+
+  #third-section p {
+    font-size: 14px;
+  }
+
+  #third-section form {
+    /* width: 85%; */
+    /* text-align: center; */
+    margin: 15px auto 25px;
+  }
+
+  #third-section input {
+    padding: 10px 60px 10px 10px;
+  }
+
+  #third-section button {
+    margin-top: 15px;
   }
 
 
