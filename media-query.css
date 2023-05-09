@@ -14,6 +14,16 @@
   
   }
 
+  h1 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 5px;
+  }
+
   .logo,
   .brand {
     width: 100px;
@@ -26,16 +36,59 @@
   #second-section,
   #third-section,
   footer {
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+  br {
+    /* visibility: hidden; */
+    display: none;
   }
 
   #first-section,
   #second-section {
     flex-direction: column-reverse;
+    text-align: center;
+    /* margin-top: 400px; */
+    /* align-items: center; */
   }
 
-  
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    /* padding: 10px 0px 10px 10px; */
+    margin-right: 0px;
+    /* border: none; */
+  }
+
+  button {
+    padding: 12px 0px;
+    margin-top: 15px;
+    
+    /* font-weight: 700; */
+    color: white;
+    /* background-color: hsl(224, 93%, 58%); */
+    border: none;
+    /* border-radius: 3px; */
+  }
+
+
+  #first-section img,
+  #second-section .beautify {
+    width: 100%;
+  }
+
+  #third-section,
+  footer,
+  .footerlinks {
+    flex-direction: column;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
 
 
 
