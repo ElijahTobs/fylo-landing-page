@@ -160,10 +160,11 @@
   }
 
   #third-section input {
-    padding: 10px 60px 10px 10px;
+    width: 195px;
   }
 
   #third-section button {
+    width: 200px;
     margin-top: 15px;
   }
 
