@@ -23,15 +23,15 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size (Desktop: 1440px & Mobile: 375px)
 - See hover states for all interactive elements on the page
 
-### Screenshot (Desktop View) 
+### Screenshot (Desktop View) 👇
 
-![](./images/desktop.gif)
+![](./images/fylo-desktop-view.png)
 
 
 
-  (Mobile View)
+### Screenshot (Mobile View) 👇
 
-![](./images/mobile.gif)
+![](./images/fylo-mobile-view.png)
 
 
 ### Links
