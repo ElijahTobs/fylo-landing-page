@@ -46,8 +46,17 @@ nav a {
 }
 
 input {
-  padding: 10px 110px 10px 10px;
+  padding: 10px 0px 10px 10px;
   margin-right: 5px;
+}
+
+button {
+  padding: 12px 50px;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 3px;
 }
 
 header,
@@ -58,15 +67,6 @@ nav,
 footer {
   padding-left: 50px;
   padding-right: 50px;
-}
-
-button {
-  padding: 12px 50px;
-  font-weight: 700;
-  color: white;
-  background-color: hsl(224, 93%, 58%);
-  border: none;
-  border-radius: 3px;
 }
 
 #second-section {

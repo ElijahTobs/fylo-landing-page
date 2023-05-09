@@ -1,13 +1,21 @@
 @media only screen and (max-width: 376px) {
   
-  nav {
+  /* body {
+    width: 100%;
+  } */
+
+  header {
+    padding: 0 20px;
+  }
+
+  header nav {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 0px;
   }
 
   nav a {
-    margin-left: 15px;
+    margin-left: 12px;
     font-size: 14px;
   }
 
@@ -24,16 +32,15 @@
   .logo,
   .brand {
     width: 100px;
-    height: 30px;
+    /* height: 30px; */
   }
 
-  header,
   #first-section,
   #second-section,
   #third-section,
   footer {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   br {
@@ -94,16 +101,23 @@
   }
 
   form {
+    /* width: 70%; */
     margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
 
   input {
-    margin-right: 0px;
+    width: 240px;
+    padding: 9px 0px 9px 3px;
+    /* padding: 0; */
+    margin: 0 auto;
+    /* margin-right: 0px; */
   }
-
+  
   button {
+    width: 250px;
+    margin: 0 auto;
     padding: 12px 0px;
     margin-top: 15px;
     color: white;
@@ -120,7 +134,7 @@
   footer,
   .footerlinks {
     flex-direction: column;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 
   #third-section {
@@ -151,6 +165,27 @@
 
   #third-section button {
     margin-top: 15px;
+  }
+
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  footer .contacts p {
+    margin:0 0 5px;
+    /* margin-bottom: 10px; */
+  }
+
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .footerlinks img {
+    width: 20px;
+    height: 15px;
+    padding-right: 20px;
   }
 
 
