@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   max-width: 1440px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -9,7 +10,6 @@ header {
   justify-content: space-between;
   font-family: 'Raleway', sans-serif;
   margin-top: 30px;
-  /* margin-bottom: 30px; */
 }
 
 .flex {
@@ -73,11 +73,14 @@ button {
   background-image: url("images/bg-curve-desktop.svg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   padding-top: 100px;
   padding-bottom: 120px;
   margin-top: 100px;
   align-items: center;
+}
+
+#second-article > p {
+  color: hsl(0, 0%, 45%);
 }
 
 #second-section .beautify {

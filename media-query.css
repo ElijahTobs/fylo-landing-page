@@ -1,17 +1,14 @@
 @media only screen and (max-width: 376px) {
-  /* body {
-    padding: 0 20px;
-    width: 100vw;
-  } */
-
+  
   nav {
     display: flex;
     justify-content: space-between;
+    padding: 0;
   }
 
   nav a {
-    margin-left: 10px;
-  
+    margin-left: 15px;
+    font-size: 14px;
   }
 
   h1 {
@@ -31,26 +28,64 @@
   }
 
   header,
-  nav,
   #first-section,
   #second-section,
   #third-section,
   footer {
-    padding-left:30px;
-    padding-right:30px;
+    padding-left:20px;
+    padding-right:20px;
   }
 
   br {
-    /* visibility: hidden; */
     display: none;
+  }
+
+  #second-section {
+    background-image: url(images/bg-curve-mobile.svg);
+    padding-top: 60px;
+    padding-bottom: 120px;
+    margin-top: 80px;
+  }
+
+  #second-article {
+    margin-top: 40px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #second-article p {
+    padding: 0;
+  }
+
+  #second-section h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #second-article a {
+    font-size: 12px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    align-self: center;
+  }
+
+  #second-article .testimony {
+    width: 80%;
+    text-align: start;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px #cfc6c6;
+    border-radius: 10px;
   }
 
   #first-section,
   #second-section {
     flex-direction: column-reverse;
     text-align: center;
-    /* margin-top: 400px; */
-    /* align-items: center; */
   }
 
   form {
@@ -60,20 +95,14 @@
   }
 
   input {
-    /* padding: 10px 0px 10px 10px; */
     margin-right: 0px;
-    /* border: none; */
   }
 
   button {
     padding: 12px 0px;
     margin-top: 15px;
-    
-    /* font-weight: 700; */
     color: white;
-    /* background-color: hsl(224, 93%, 58%); */
     border: none;
-    /* border-radius: 3px; */
   }
 
 
@@ -87,7 +116,6 @@
   .footerlinks {
     flex-direction: column;
     margin-bottom: 40px;
-    justify-content: space-between;
   }
 
 
