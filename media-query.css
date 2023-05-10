@@ -1,5 +1,25 @@
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   
+  body {
+    width: auto;
+  }
+
+  header .container {
+    flex-direction: row;
+  }
+
+  .container {
+    /* display: block; */
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  #first-section .container,
+  #second-section .container {
+    flex-direction: column-reverse;
+    /* align-items: center; */
+  }
+
   header {
     padding: 0 20px;
   }
@@ -88,12 +108,12 @@
     font-size: 12px;
     margin-top: 0px;
   }
-
+/* 
   #first-section,
   #second-section {
     flex-direction: column-reverse;
     text-align: center;
-  }
+  } */
 
   form {
     margin-top: 30px;

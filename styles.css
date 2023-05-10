@@ -1,8 +1,15 @@
+.container {
+  width: 95%;
+  max-width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 body {
   margin: 0;
   padding: 0;
-  max-width: 1440px;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
 }
 
 header {
@@ -35,7 +42,7 @@ header img {
 }
 
 #first-section {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 nav a {
@@ -47,6 +54,8 @@ nav a {
 input {
   padding: 10px 110px 10px 10px;
   margin-right: 5px;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
 
 button {
@@ -69,12 +78,12 @@ footer {
 }
 
 #second-section {
-  background-image: url("images/bg-curve-desktop.svg");
+  background-image: url(images/bg-curve-desktop.svg);
   background-size: cover;
-  background-position: center;
-  padding-top: 100px;
+  background-position: center center;
+  padding-top: 50px;
   padding-bottom: 120px;
-  margin-top: 100px;
+  margin-top: 150px;
   align-items: center;
 }
 
@@ -201,18 +210,17 @@ footer a {
   color: hsl(224, 93%, 58%);
 }
 
-
 .logo {
   width: 120px;
 }
 
 .attribution {
-   font-size: 12px;
-   text-align: center;
-  }
+  font-size: 12px;
+  text-align: center;
+}
 
 .attribution a {
-   color: cyan;
-  }
+  color: cyan;
+}
 
  
