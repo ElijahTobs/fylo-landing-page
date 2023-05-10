@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-HM_DmcSazh)
-- Live Site URL: [Fylo Landing Page](https://raw.githack.com/ElijahTobs/fylo-landing-page/feature/index.html)
+- Live Site URL: [Fylo Landing Page](https://elijah-fylo-landing-page.netlify.app/)
 
 ## My process
 
